@@ -1,11 +1,11 @@
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
+
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
-
 
 let sections = document.querySelectorAll('section');
 let navlinks = document.querySelectorAll('header nav a');
@@ -54,3 +54,9 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop : true
 });
+
+
+
+
+
+

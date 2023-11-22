@@ -1,12 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio nanaaadd</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-   <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+  </head>
+    
+    
+
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
@@ -17,7 +22,7 @@
         <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
-        <a href="#services">Services</a>
+        <a href="#services">Deploy</a>
         <a href="#project">Project</a>
         <a href="#contact">Contact</a>
         </nav>
@@ -30,16 +35,18 @@
             <h3>And I'm a <span class="multiple-text"></span></h3>
             <p>njwhduowauib</p>
         <div class="sosial-media">
-            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-            <a href="#"><i class='bx bxl-github' ></i></a>
-            <a href="#"><svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M19.098 10.638c-3.868-2.297-10.248-2.508-13.941-1.387-.593.18-1.22-.155-1.399-.748-.18-.593.154-1.22.748-1.4 4.239-1.287 11.285-1.038 15.738 1.605.533.317.708 1.005.392 1.538-.316.533-1.005.709-1.538.392zm-.126 3.403c-.272.44-.847.578-1.287.308-3.225-1.982-8.142-2.557-11.958-1.399-.494.15-1.017-.129-1.167-.623-.149-.495.13-1.016.624-1.167 4.358-1.322 9.776-.682 13.48 1.595.44.27.578.847.308 1.286zm-1.469 3.267c-.215.354-.676.465-1.028.249-2.818-1.722-6.365-2.111-10.542-1.157-.402.092-.803-.16-.895-.562-.092-.403.159-.804.562-.896 4.571-1.045 8.492-.595 11.655 1.338.353.215.464.676.248 1.028zm-5.503-17.308c-6.627 0-12 5.373-12 12 0 6.628 5.373 12 12 12 6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12z"/></svg></a>
+            <a class="" href="https://instagram.com/nd.rizz?igshid=NGVhN2U2NjQ0Yg==" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            <a class="" href="https://github.com/rizkynadiaalifah" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a class="" href="https://open.spotify.com/playlist/6U5srLpMIevocWm2gxkKUK?si=ab6a53cab5e34cf0" target="_blank"><i class='bx bxl-spotify' ></i></a>
         </div>
         <a href="#" class="btn">Download CV</a>
      </div>  
 
      <div class="home-img">
-        <img src="img/two.jpeg" alt="">
+        <div class="glowing-circle">
+        <img src="img/nadnad.png" alt="">
 
+        </div>
      </div>
     </section>
 
@@ -50,35 +57,67 @@
         </div>
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3>Student UNPAD</h3>
-            <p>selalu beruntunh dalam hal apapun</p>
-            <a href="#" class="btn">Read More</a>
-        </div>
-    </section>
+            <h3>Hello everyone</h3>
+            <p> Saya nadia, seorang siswi yang bersemangat untuk mengeksplorasi dunia pengetahuan dan belajar dari setiap pengalaman.
+                 Saya percaya bahwa pendidikan adalah kunci untuk membuka pintu masa depan yang cerah, dan saya selalu mencari cara untuk 
+                 tumbuh dan berkembang...</p>
 
+                
+                        
+            <a href="#" class="btn" >Read More</a>
+      
+    </div>
+    </section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <h2 class="heading">Riwayat <span>Pendidikan</span></h2>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/esde.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/esempe.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/esemka.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <section class="services" id="services">
-        <h2 class="heading">Nadia's <span>Project </span></h2>
+        <h2 class="heading">Nadia's <span>Deploy </span></h2>
  
         <div class="services-container">
             <div class="services-box">
                 <i class='bx bx-code-alt'></i>
                 <h3>Project css</h3>
                 <p>i make it always happy colorfully</p>
-                <a href="#" class="btn">Read More</a>
+                <a href=" https://rizkynadiaalifah.github.io/tugas-css-pakjum/" class="btn" target="_blank">Link Here </a>
             </div>
 
             <div class="services-box">
                 <i class='bx bxs-paint' ></i>
                 <h3>Project Bootsrap</h3>
                 <p>i make it always happy colorfully</p>
-                <a href="#" class="btn">Read More</a>
+                <a href="https://rizkynadiaalifah.github.io/tugas-bootstrap-pakjum/" class="btn" target="_blank">Link Here</a>
             </div>
 
             <div class="services-box">
                 <i class='bx bx-link-alt' ></i>
                 <h3>Project Form</h3>
                 <p>i make it always happy colorfully</p>
-                <a href="#" class="btn">Read More</a>
+                <a href=" https://rizkynadiaalifah.github.io/pwb-tugas/" class="btn" target="_blank">Link Here</a>
             </div>
         </div>
     </section>
@@ -89,10 +128,10 @@
 
             <div class="project-container">
                 <div class="project-box">
-                    <img src="img/one.png" alt="">
+                    <img src="img/one.png" alt=""> 
                     <div class="project-layer">
-                        <h4> my project </h4>
-                    <a href="#" ><i class='bx bx-link-external'></i></a>
+                        <h4> Project Table </h4>
+                    <a href="file:///C:/Users/Nadia%20Rizky%20Alifah/OneDrive/RPL-MATERI/tugas-pakjumadi/tugas-pwb/tabel.html" ><i class='bx bx-link-external'></i></a>
                 
                 </div>
             </div>
@@ -101,8 +140,8 @@
                 <div class="project-box">
                       <img src="img/dua1.png" alt="">
                       <div class="project-layer">
-                        <h4> my project </h4>
-                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <h4> Project Css </h4>
+                        <a href="https://rizkynadiaalifah.github.io/tugas-css-pakjum/"><i class='bx bx-link-external'></i></a>
                   
                     </div>
                 </div>
@@ -111,8 +150,8 @@
                     <div class="project-box">
                         <img src="img/tiga.png" alt="">
                           <div class="project-layer">
-                            <h4> my project </h4>
-                            <a href="#"><i class='bx bx-link-external'></i></a>
+                            <h4> Project Bootsrap </h4>
+                            <a href="https://rizkynadiaalifah.github.io/tugas-bootstrap-pakjum/"><i class='bx bx-link-external'></i></a>
                         </div>
                      
                     </div>
@@ -121,8 +160,8 @@
                         <div class="project-box">
                             <img src="img/ke1.png" alt="">
                               <div class="project-layer">
-                                <h4> my project </h4>
-                                <a href="#"><i class='bx bx-link-external'></i></a>
+                                <h4> Projek Form Page 1</h4>
+                                <a href="https://rizkynadiaalifah.github.io/pwb-tugas/"><i class='bx bx-link-external'></i></a>
                                
                             </div>
                         </div>
@@ -131,8 +170,8 @@
                             <div class="project-box">
                                 <img src="img/ke2.png" alt="">
                                   <div class="project-layer">
-                                    <h4> my project </h4>
-                                    <a href="#"><i class='bx bx-link-external'></i></a>
+                                    <h4> Project Form Page 2</h4>
+                                    <a href="https://rizkynadiaalifah.github.io/pwb-tugas/form.html"><i class='bx bx-link-external'></i></a>
                                     
                                 </div>
                             </div>
@@ -141,8 +180,8 @@
                                 <div class="project-box">
                                     <img src="img/ke3.png" alt="">
                                       <div class="project-layer">
-                                        <h4> my project </h4>
-                                        <a href="#"><i class='bx bx-link-external'></i></a>
+                                        <h4> Project Form Page 3 </h4>
+                                        <a href="https://rizkynadiaalifah.github.io/pwb-tugas/welcome.html?first-name=&last-name=&negara=Indonesia&massage="><i class='bx bx-link-external'></i></a>
                                        
                                     </div>
                                 </div>
@@ -152,16 +191,16 @@
          <section class="contact" id="contact">
             <h2 class="heading">Contact <span> Me!</span></h2>
 
-            <form action="#">
+            <form action="https://formspree.io/f/xnqkykzr" method="POST">
                <div class="input-box">
-                <input type="text" placeholder="Full name">
-                <input type="email" placeholder="Email Adress">
+                <input type="text" placeholder="Full name" name="full name">
+                <input type="email" placeholder="Email Adress" name="email adress">
                </div>
                <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" placeholder="Mobile Number" name="mobile number">
+                <input type="text" placeholder="Status" name="Status">
                </div>
-                <textarea name=" " id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                 <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
                 <input type="submit" value="Send Messaage"  class="btn">
             </form>
 
@@ -170,7 +209,7 @@
 
          <footer class="footer">
             <div class="footer-text">
-                <p>Copyright &copy; 2023 by nadia | ALL Rights Reserved.</p>
+                <p>Copyright codehal 2023 by nadia | ALL Rights Reserved.</p>
             </div>
  
            <div class="footer-iconTop">
@@ -179,6 +218,8 @@
            </div>
 
          </footer>
+
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
          <script src="https://unpkg.com/scrollreveal"></script>
 
