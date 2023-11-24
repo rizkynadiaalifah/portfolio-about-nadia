@@ -53,7 +53,7 @@ section {
 
 .logo{
     font-size: 2.5rem;
-    color: var(--text-color);
+    color: var(--main-color);
     font-weight: 600;
     cursor: default;
 }
@@ -81,13 +81,13 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../img/hj.jpeg');
-    background-size: cover;
-    background-position: center; 
+    background: var(--bg-color);
 }
 
 .home-img img {
     width: 400px;
+    border-radius: 2rem;
+    flex: 1 1 30rem;
     animation: floatImage 4s ease-in-out infinite ;
 }
 
@@ -162,6 +162,7 @@ span {
     font-size: 1.6rem;
     color: var(--second-bg-color);
     letter-spacing: .1rem;
+    margin-top: 15px;
     font-weight: 600;
     transition: .5s ease;
 }
@@ -170,20 +171,28 @@ span {
     box-shadow: none;
 }
 
+#ch {
+    display: none;
+}
+
+#ch:checked ~ .content-readmore {
+    display: block;
+}
+
+.content-readmore {
+    display: none;
+}
 
 .about { 
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: url('../img/hj.jpeg');
-    background-size: cover;
-    background-position: center; 
+    background-color: #008B8B  ;
 }
 
 .about-img {
     width: 30vw;
-    animation: floatImage 4s ease-in-out infinite ;
 }
 
 .heading {
@@ -215,6 +224,7 @@ span {
     flex-direction: column;
     width: 100%;
     padding: 5rem 1rem;
+    background: var(--second-bg-color);
 }
 
 #carouselExampleIndicators .carousel-inner {
@@ -276,17 +286,17 @@ span {
 
 .services-container .services-box {
     flex: 1 1 30rem;
-    background: var(--second-bg-color);
+    background-color: #008B8B;
     padding: 3rem 2rem 4rem ;
     border-radius: 2rem;
     text-align: center;
-    border: .2rem solid var(--bg-color);
+    border: .4rem solid var(--main-color);
     transition: .5s ease;
 }
 
 .services-container .services-box:hover {
-    border-color: var(--main-color);
-    transform: scale(1.02);
+    border-color: var(--shadow-color);
+    transform: scale(1.04);
 }
 .services-box i {
     font-size: 7rem;
@@ -305,7 +315,7 @@ span {
 }
 
 .project {
-    background: var(--second-bg-color);
+    background-color: #008B8B;
 
 }
 
@@ -532,7 +542,7 @@ span {
 
     .home-img  img {
         width: 70vw;
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
 
     .about {
@@ -540,9 +550,11 @@ span {
     }
 
     .about img {
-        width: 70vw;
+        width: 60vw;
         margin-top: 4rem;
     }
+
+    
 
     .services h2 {
         margin-bottom: 3rem;
@@ -579,8 +591,8 @@ span {
    }
 
    .about-img img {
-    width: 70vw;
-    margin-top: -2rem;
+    width: 62vw;
+    
    }
 
    .footer {   
